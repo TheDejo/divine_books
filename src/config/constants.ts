@@ -27,10 +27,17 @@ const COMPANY_SOCIALS = [
 const API = {
   baseURL: process.env.REACT_APP_API_URL,
   routes: {
-    allBooks: '/',
-    singleBooks: '/'
+    asyncKey: 'books/getBooks',
+    searchBooks: `${process.env.REACT_APP_API_URL}/search.json?title`
   },
   timeout: 60000
+}
+
+const MISC = {
+  routes: {
+    amazon: 'https://www.amazon.co.uk/s?k=%amazonid%',
+    image: 'https://covers.openlibrary.org/b/id/%cover%-L.jpg'
+  }
 }
 
 const COMPANY_LINKS = [
@@ -82,6 +89,7 @@ const constant = {
   COMPANY_SOCIALS,
   ENVIRONMENT,
   LOGO,
+  MISC,
   SCREEN_TEXT
 }
 

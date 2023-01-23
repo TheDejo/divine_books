@@ -9,6 +9,7 @@ module.exports = {
             '@config': path.resolve(__dirname, 'src/config'),
             '@components': path.resolve(__dirname, 'src/components'),
             '@logger': path.resolve(__dirname, 'src/logger.config'),
+            '@redux': path.resolve(__dirname, 'src/redux'),
         },
     },
 };

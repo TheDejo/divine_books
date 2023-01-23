@@ -1,5 +1,3 @@
-import { AxiosResponse } from 'axios'
-
 export enum HttpStatusCode {
   OK = 200,
   CREATED = 201,
@@ -24,4 +22,4 @@ export type Res<T> = {
   path?: string
 }
 
-export type ApiResponse<T = undefined> = Promise<AxiosResponse<Res<T>>>
+export type ApiResponse<T = undefined> = Promise<Res<T>>

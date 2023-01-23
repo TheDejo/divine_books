@@ -33,7 +33,12 @@
             "@components/*": [
                 "./src/components/*"
             ],
-            "@logger": ["./src/logger.config"],
+            "@logger": [
+                "./src/logger.config"
+            ],
+            "@redux/*": [
+                "./src/redux/*"
+            ],
         }
     }
 }

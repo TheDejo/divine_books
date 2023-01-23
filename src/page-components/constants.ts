@@ -1,14 +1,8 @@
-const PAGE_HEAD = {
-  home: 'home'
-}
-
 const SCREEN_TEXT = {
-  allBooks: 'All Books',
-  recentSearch: 'Recent Search'
+  welcome: 'Welcome To Bukks Library'
 }
 
 const constant = {
-  PAGE_HEAD,
   SCREEN_TEXT
 }
 

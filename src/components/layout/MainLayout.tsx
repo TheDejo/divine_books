@@ -6,7 +6,6 @@ import Header from './Header'
 const Layout = styled.section`
   width: 100vw;
   height: 100%;
-  /* overflow-x: hidden; */
   min-height: 100vh;
 `
 
